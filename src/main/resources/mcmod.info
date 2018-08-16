@@ -1,9 +1,9 @@
 [{
-  "modid": "autoemoji",
-  "name": "AutoEmoji",
+  "modid": "emojinsert",
+  "name": "Emojinsert",
   "description": "Automatically replace keywords with emoji.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/Polyr/AutoEmoji",
+  "url": "https://github.com/Polyr/Emojinsert",
   "authorList": ["Polyr"]
 }]

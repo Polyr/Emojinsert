@@ -1,4 +1,4 @@
-package xyz.polyr.autoemoji;
+package xyz.polyr.emojinsert;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
@@ -6,15 +6,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import xyz.polyr.autoemoji.listeners.ClientChatListener;
+import xyz.polyr.emojinsert.listeners.ClientChatListener;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@Mod(modid = AutoEmojiMod.MODID, useMetadata = true, clientSideOnly = true)
-public class AutoEmojiMod {
-    static final String MODID = "autoemoji";
+@Mod(modid = EmojinsertMod.MODID, useMetadata = true, clientSideOnly = true)
+public class EmojinsertMod {
+    static final String MODID = "emojinsert";
     private static final String EMOJI_MAP_CATEGORY = "emoji_map";
     private static Configuration config;
     private final Map<String, String> emojiMap = new HashMap<>();

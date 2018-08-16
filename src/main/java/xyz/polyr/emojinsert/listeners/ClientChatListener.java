@@ -1,4 +1,4 @@
-package xyz.polyr.autoemoji.listeners;
+package xyz.polyr.emojinsert.listeners;
 
 import net.minecraft.client.gui.GuiChat;
 import net.minecraft.client.gui.GuiScreen;
