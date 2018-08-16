@@ -1,7 +1,7 @@
 [{
   "modid": "emojinsert",
   "name": "Emojinsert",
-  "description": "Automatically replace keywords with emoji.",
+  "description": "Automatically replace keywords with emoji in chat.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://github.com/Polyr/Emojinsert",
