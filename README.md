@@ -1,6 +1,6 @@
 # AutoEmoji [![License](https://img.shields.io/github/license/Polyr/AutoEmoji.svg)](LICENSE)
 
-Automatically replace keywords with emoji. For example, <3 becomes ❤.
+Automatically replace keywords with emoji. For example, <3 becomes ❤.  
 Inspired by Hypixel's perks for MVP++s.
 
 ## Disclaimer
