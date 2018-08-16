@@ -1,0 +1,9 @@
+[{
+  "modid": "autoemoji",
+  "name": "AutoEmoji",
+  "description": "Automatically replace keywords with emoji.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Polyr/AutoEmoji",
+  "authorList": ["Polyr"]
+}]
