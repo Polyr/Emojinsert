@@ -44,7 +44,7 @@ public class ClientChatListener {
 
                     final String replacedChat = StringUtils.replaceEach(chat, emojiMap.keySet().toArray(new String[0]), emojiMap.values().toArray(new String[0]));
                     chatTextField.setText(""); // Sending an empty message will not send a message at all.
-                    gui.mc.thePlayer.sendChatMessage(replacedChat);
+                    gui.sendChatMessage(replacedChat, false);
                     gui.mc.ingameGUI.getChatGUI().addToSentMessages(chat);
             }
         }
